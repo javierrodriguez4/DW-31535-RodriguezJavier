@@ -25,3 +25,33 @@
         transform: scale(1.05);
     }
 }
+
+.bannerIndex {
+    background-image: url(../img/fondoIndex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        background: none;
+        img {
+            display: flex;
+            width: 700px;
+            background: none;
+        }
+    }
+
+    div {
+        h1 {
+            background: none;
+            font-size: 50px;
+        }
+
+    h3 {
+        background: none;
+    }
+    }   
+}

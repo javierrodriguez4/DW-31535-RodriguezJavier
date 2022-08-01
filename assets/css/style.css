@@ -23,6 +23,26 @@
   .tarjeta:hover {
     transform: scale(1.05); }
 
+.bannerIndex {
+  background-image: url(../img/fondoIndex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .bannerIndex div {
+    background: none; }
+    .bannerIndex div img {
+      display: flex;
+      width: 700px;
+      background: none; }
+  .bannerIndex div h1 {
+    background: none;
+    font-size: 50px; }
+  .bannerIndex div h3 {
+    background: none; }
+
 .nosotros {
   width: 100%; }
 
